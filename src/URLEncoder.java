@@ -4,7 +4,6 @@ import java.io.UnsupportedEncodingException;
  * Utility class for HTML form encoding. This class contains static methods for converting a String to the application/x-www-form-urlencoded MIME format. For more information about HTML form encoding, consult the HTML specification.
  * 
  * @author Sala
- * @since JDK 1.0
  * 
  * When encoding a String, the following rules apply:
  * <li>
@@ -16,7 +15,7 @@ import java.io.UnsupportedEncodingException;
  *      
  * For example using UTF-8 as the encoding scheme the string "The string ü@foo-bar" would get converted to "The+string+%C3%BC%40foo-bar" because in UTF-8 the character ü is encoded as two bytes C3 (hex) and BC (hex), and the character @ is encoded as one byte 40 (hex).
  * 
- * 
+ * @since JDK 1.0
  */
 
 public class URLEncoder 
